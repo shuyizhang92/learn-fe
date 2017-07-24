@@ -1,0 +1,42 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <style>
+            .box {
+                height: 100%;
+                position: relative;
+                /* display: flex; <--- css3
+                flex-direction: column;
+                justify-content: center; */
+            }
+
+            .center {
+                position: absolute;
+                width: 300px;
+                /* height: 200px; */
+                background: red;
+                margin: 0 auto 0 auto;
+                left: 50%;
+                top: 50%;
+                transform: translateY(-50%) translateX(-50%);
+                /* margin-top: -100px; */
+                /* margin-left: -150px; */
+            }
+
+            p {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box">
+            <div class="center">
+                <p>块元素剧中块元素剧中块元素剧中块元素剧中块元素剧中块元素剧中块元素剧中</p>
+            </div>
+        </div>
+
+    </body>
+
+</html>
